@@ -81,6 +81,7 @@ df.rename(columns={'Sex':'Gender'},inplace=True)
 df
 ```
 ![image](https://github.com/user-attachments/assets/f02bda5c-c96d-41e7-82fa-878fc083cf07)
+# Bivariate Analysis
 ```py
  sns.catplot(x="Gender",col="Survived",kind="count",data=df,height=5,aspect=.7)
 ```
@@ -101,6 +102,7 @@ sns.scatterplot(x=df["Age"],y=df["Fare"])
 sns.jointplot(x="Age",y="Fare",data=df)
 ```
 ![image](https://github.com/user-attachments/assets/f529f34c-d577-4a9a-b9cd-675b52d5deaf)
+#  Multivariate Analysis
 ```py
 fig, ax1 = plt.subplots(figsize=(8,5))
 sns.boxplot(ax=ax1,x='Pclass',y='Age',hue='Gender',data=df)
