@@ -1,4 +1,5 @@
-# EXNO2DS
+# EXNO:2
+# DATA SCIENCE
 # AIM:
 To perform Exploratory Data Analysis on the given data set.
       
