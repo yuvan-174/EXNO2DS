@@ -112,6 +112,7 @@ sns.boxplot(ax=ax1,x='Pclass',y='Age',hue='Gender',data=df)
  sns.catplot(data=df,col="Survived",x="Gender",hue="Pclass",kind="count")
 ```
 ![image](https://github.com/user-attachments/assets/27b36b0e-b86f-4d7e-bc82-104c8af5ab19)
+# Co-Relation
 ```py
 numeric_df = df.select_dtypes(include=np.number)
 corr_matrix = numeric_df.corr()
